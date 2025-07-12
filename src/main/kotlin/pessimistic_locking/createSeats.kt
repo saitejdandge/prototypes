@@ -4,8 +4,8 @@ import java.sql.Connection
 
 fun main() {
     val connection = getConnection()
-//    createSeats("AIR_INDIA_HYD_TO_BLR", connection)
-    showSeats(connection)
+    createSeats("AIR_INDIA_HYD_TO_BLR", connection)
+//    showSeats(connection)
 //    println(generateSeatIds())
 }
 
@@ -25,7 +25,7 @@ fun createSeats(tripId: String, connection: Connection?) {
 
 fun generateSeatIds(): List<String> {
     val output = mutableListOf<String>()
-    for (row in 1..20) {
+    for (row in 1..2000) {
         output.addAll(listOf("${row}A", "${row}B", "${row}C", "${row}D", "${row}E", "${row}F"))
     }
     return output
