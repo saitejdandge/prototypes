@@ -4,20 +4,6 @@ import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import java.sql.Connection
 
-fun main() {
-    val connection = Database.getConnection()
-    connection.use {
-        connection.prepareStatement("select * from seats;").use { stmt ->
-            stmt.executeQuery().use { rs ->
-                while (rs.next()) {
-                    val username = rs.getString("id")
-                    println(username)
-                }
-            }
-        }
-    }
-}
-
 object Database {
     private val dataSource: HikariDataSource
 
