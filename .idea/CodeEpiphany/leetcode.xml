@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.wenjun.codeepiphany.leetcode.settings">
+    <option name="languageSettings">
+      <list>
+        <LanguageSettingsState sourceFolder="$PROJECT_DIR$/../../leetcode" language="java" languageVersion="" fileNameTemplate="binarySearch" codeTemplate="${challenge.questionId}&#10;${challenge.frontendQuestionId}&#10;${challenge.name}&#10;${challenge.testCases}&#10;${challenge.difficulty}" />
+      </list>
+    </option>
+    <option name="queryCriteria">
+      <map>
+        <entry key="LeetCodeChallengesView-lastUI" value="Unauthenticated" />
+        <entry key="LeetCodeParametersQueryPresenter-criteria" value="{&quot;selectedCategory&quot;:{&quot;title&quot;:&quot;Database&quot;,&quot;url&quot;:&quot;/problemset/database/&quot;,&quot;slug&quot;:&quot;database&quot;},&quot;selectedFavorite&quot;:null,&quot;selectedDifficulty&quot;:null,&quot;selectedStatus&quot;:null,&quot;tags&quot;:[],&quot;orderBy&quot;:null}" />
+        <entry key="LeetCodeParametersQueryPresenter-pageSize" value="20" />
+      </map>
+    </option>
+  </component>
+</project>
